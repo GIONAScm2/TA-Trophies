@@ -82,7 +82,7 @@ const urlQuery = `https://www.google.com/search?q=${encodeURI(_gameTitle + " sit
 (async () => {
     colorLog('**********START OF DEBUGGING**********', 'blue');
 
-    if (!await _settings.init()) return; // don't run script unless user's PSN ID is retrieved
+    if (!await _settings.init()) return; // doesn't run script unless user's PSN ID is retrieved
 
     await main();
 
