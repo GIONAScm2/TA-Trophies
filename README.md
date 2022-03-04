@@ -5,7 +5,7 @@ TA is renowned for its efficient solutions and walkthroughs that often eclipse a
 ___
 ## Installation/Usage
 0. Install a userscript manager browser extension (such as [Tampermonkey](https://www.tampermonkey.net/)).
-1. Click [here](https://github.com/T-h0re/TA-Trophies/raw/main/TA-Trophies.user.js) to install the script.
+1. Click [here](https://github.com/GIONAScm2/TA-Trophies/raw/main/TA-Trophies.user.js) to install the script.
 2. (Optional) Make sure you're signed into [PSNP](https://psnprofiles.com/) if you wish to utilize progression-based features, like the automatic marking of achievements that you've completed the trophy counterparts of.
 
 #### Mobile Compatibility
