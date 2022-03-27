@@ -2,10 +2,10 @@
 // @name         TA-Trophies
 // @author       GIONAScm2
 // @namespace    https://github.com/GIONAScm2/TA-Trophies
-// @version      1.00
+// @version      1.01
 // @description  Script that brings trophies to the TA environment.
-// @downloadURL  https://onedrive.live.com/download?cid=C4E82F50479B0155&resid=C4E82F50479B0155%21387977&authkey=ABuMKIAkLRoqyRY
-// @updateURL    https://onedrive.live.com/download?cid=C4E82F50479B0155&resid=C4E82F50479B0155%21387977&authkey=ABuMKIAkLRoqyRY
+// @downloadURL  https://github.com/GIONAScm2/TA-Trophies/raw/main/TA-Trophies.user.js
+// @updateURL    https://github.com/GIONAScm2/TA-Trophies/raw/main/TA-Trophies.user.js
 // @match        https://www.trueachievements.com/game/*
 // @match        https://www.truetrophies.com/game/*
 // @connect      psnprofiles.com
@@ -17,7 +17,7 @@
 // @grant        GM.deleteValue
 // ==/UserScript==
 
-/// <reference path="./../TrophyFunctions.js"/>     // Enables IntelliSense
+/// <reference path="TrophyFunctions.js"/>     // Enables IntelliSense
 /* global Game, Trophy, TrophyList, newElement, colorLog, Game, CopyCheckbox */   // whitelists external object names for ESLint
 
 // hide external console warnings via `-net::ERR_BLOCKED_BY_CLIENT -crbug -JWPlayer -fun-hooks` (in filter)
